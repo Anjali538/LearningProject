@@ -1,0 +1,88 @@
+General:
+
+https://lion.box.com/s/rxmdlcjzshv73gjisacyzfg31gaf3ezr
+https://lion.box.com/s/eme0q82n2hshwe3m08mjxi11gp2jhvpm
+
+OOPS
+	Principles of OOPS
+		Encapsulation - Data hiding - private, public, protected, package - so that unwanted modification do not take place
+		Abstraction - Abstract classes, Interface - To hide complexity from end users
+		Inheritance - is-A, extend, Reuse
+		Polymorphism - Overloading (same class) and Overriding (in the inherited class)
+	How OOPS implemented in Java
+	What is OOAD? - is a repetitive process
+		Requirement gathering phase -> User Stories (Agile - Scrum)/Use cases (Waterfall) -> Classes/Objects and their Interactions
+				As a xyz user I should be able to do f1 function to achieve abc goal
+		Classes/Objects and their Interactions
+			Generalization (pull out nouns - entity and actions - behaviour) - High level classes and their behaviour - Abstract class/Intefaces definistion
+			Association - Uni directional, bi directional, cardinality
+			Dependency - Composition (private variable in the class) - inner classes, instantiate only in parent class construtor , Aggregation (private variable in the class), By method refrence passing (encrypt(Algorithm1 algm1))
+				
+	SOLID Principles
+		S - Single Resposbilty
+				High Cohesion (related put together) - for a similar change change only similar clases
+		O - Open closed
+			Open for extension closed for modification
+			Good practises: Program against interfaces (abilty to replace implementation at runtime), Prefer compostion over inheritance
+		L - Liskovs Substitution
+		I - Interface Segregation
+		D - Dependecy inversion
+	
+	Important Design Patterns
+	Gof
+		Singleton 
+			Eg:- SessionFactory, CachingContainer,Logger - why? - cost of object creation, memory
+			Trick - multithreaded, using Enum is best
+		Strategy
+			Advantage: Replace strategy at runtime
+			Open closed principle
+		Template
+			Helps you to run things in a given order but with changed implementation
+		Observer
+			Subject and many observers - JMS
+				dynamically add more observers
+				subject and observer are decoupled
+		Command
+			Struts
+			Decouples command sender from commnad executor (sender and executor can be in different threads)
+			helps to Undo , It supports queueing
+		Builder
+			To create complex objects (dep nested) which have many optional values
+		Decorator
+			a way to provide additional functionality to an object (heavily used in Java file i/0)
+			open closed
+		Adapter
+			is to integrate two diffrent apis App > middleware <Adpater> > Leagy system
+		Proxy
+			Spring AOp, Hibernate Lazy Loading 
+			Is to load heavy objects (especially from remote only when they ar required), for security and any additional logic
+		Factory
+			Spring dependency injection, without using new , loose coupling
+	J2EE	
+		Front Controller/
+		Facade 
+		Interceptor chain - Chain of Responsibilty (interceptors or filters)
+		Business Delegate
+		Dao
+		DTO
+		
+		
+
+
+Hi Mukta,
+
+After post selection in WMC, I never denied to work with WMC GGN location. 
+I did conversation with manager and requested if possible I can work from noida once a week. He suggested me that Initially in worst case you have to come GGN every day after that as per your performance we can consider and also he told me to confirm till evening or tomorrow morning.
+
+I sent email such as I am ready to work please consider. Also I continuously followed with Nikhil Arora regarding KT ad ask please let me know when I have to come GGN for KT but there was no any response from their side.
+
+
+		
+
+
+
+
+		
+
+		
+		

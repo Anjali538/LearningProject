@@ -1,0 +1,28 @@
+Concurrency and Threads --- https://www.youtube.com/playlist?list=PLhfHPmPYPPRk6yMrcbfafFGSbE2EPK_A6
+		Even and Odd class, want to print 1,2,3,4... in sequence from both Odd and Even - write code
+		Producer Consumer (Multiple ways)
+			One producer , Multiple Consumers
+			Multiple Producers and multiple consumers
+		New Locking framework
+			Comparision with old wait,notify and synchronization
+		How to write a  Thread Safe class  --- https://dzone.com/articles/7-techniques-for-thread-safe-classes
+		Callable vs Runnable
+		A thread t1 holds a class level lock and is entering method m1 and another thread t2 wants to enter method m2 with object level lock, can it enter? How does class level lock and method   level lock works?
+		https://howtodoinjava.com/java/multi-threading/object-vs-class-level-locking/
+		What are daemon threads? Use case of creating daemon threads? Will JVM exit in case there are few daemon threads running
+		https://beginnersbook.com/2015/01/daemon-thread-in-java-with-example/
+		https://stackoverflow.com/questions/18933195/daemon-thread-use-case
+		What is the advantage of using ReentrantLock over Synchronized key word? What is the overhead with ReentrantLock? Is Synchronized reentrant? If the reentrant acquires the same lock 3 times how many times it will have to release the lock?
+		https://javarevisited.blogspot.com/2013/03/reentrantlock-example-in-java-synchronized-difference-vs-lock.html#axzz6Iqnr72Lf
+     	 	 How executor framework works? How it uses the Thread pool, How the response is collected back after execution? What happens if there is an error in one of the execution?
+		http://mrbool.com/working-with-java-executor-framework-in-multithreaded-application/27560
+                https://stackoverflow.com/questions/2248131/handling-exceptions-from-java-executorservice-tasks
+		What is ScheduledThreadpool and when to use singlesizedThreadpool
+		I have to run 3 batch jobs and then start my cache server. After some interval I have to re-run these periodically and then again restart my server?
+		What is the advantage of CompletableFuture over Future and what are some important methods in it?
+		Implement a movie ticket counter which has four windows and in total can sell upto 200 tickets - Code
+		
+		Important points :---
+		
+		CompletableFuture -> https://www.callicoder.com/java-8-completablefuture-tutorial/
+		https://www.callicoder.com/java-concurrency-multithreading-basics/

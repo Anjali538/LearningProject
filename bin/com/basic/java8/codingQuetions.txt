@@ -1,0 +1,36 @@
+*******************JAVA*********************
+
+****Java 8********
+
+Sorting and filtering using streams - code
+Convert a list into sorted set using lambda expression - Code
+Calculate average in an array list - Code
+If I have list of movies with ratings and year of release. I want to first sort them based on ratings and then year of release - Code
+Write a program to count the number of ‘e’ in a list. E.g "Ken", "Jeff", "Ellen" should print 4. - Code
+I have a stream of strings and I want to collect them in  a map with key as length and value as a Set of those words - Code
+Create an Apple class which has got an id and weight of an apple. From a list of Apples find out apples which are less than 250 gms but more than 150 gms - Code
+Create an ArrayList with Strings in lower case. Convert the entire list into upper case?
+
+****Collections*****
+How would you store stock prices coming at Diffrent times to return th elatest price in most efficient way? - Code
+TreeMap sorting - Code
+Iterating Tree Map - Code
+Sorting Hash map based on Key and on value
+
+
+****Multithreading and concurrency*******
+Producer Consumer
+Semaphores, cyclic Barirer, latches - small examples
+Even and Odd class, want to print 1,2,3,4... in sequence from both Odd and Even - write code
+Producer Consumer (Multiple ways)
+One producer , Multiple Consumers
+Multiple Producers and multiple consumers
+Implement a movie ticket counter which has four windows and in total can sell upto 200 tickets - Code
+
+****Design Pattern*******
+Able to write - Singleton,Factory,AbstractFactory,Template, Chain of responsilbilty, Adapter, Facade
+
+
+
+
+

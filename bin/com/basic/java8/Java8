@@ -1,0 +1,30 @@
+Java 8 features
+		check sort by key and value of map using java 8 as well - https://www.java67.com/2017/07/how-to-sort-map-by-values-in-java-8.html
+		https://www.java67.com/2015/01/how-to-sort-hashmap-in-java-based-on.html
+		How do you compare functional and imperative programming? —https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/functional-programming-vs-imperative-programming
+		Does lambda support recursive invocation? —— https://www.java2novice.com/java_interview_questions/java-8-lambda-recursive-support/
+		Are java lambdas closures. Can they define variables with same name as in enclosing method? - https://dzone.com/articles/java-8-lambas-limitations-closures
+		What are the cases when you cannot replace a lambda expression with a method reference? - https://dzone.com/articles/method-references-cannot-always-replace-lambda-expressions — if method signature differ lama can use but method reference can show compiler error.
+		Can you use statements like break, continue in lambda - takeWhile we can use instead of brake in java  and filter can be used as continue
+		Convert a list into sorted set using lambda expression - Code
+		Calculate average in an array list - Code
+		If I have list of movies with ratings and year of release. I want to first sort them based on ratings and then year of release - Code
+		Streams operations
+		How can you re-use a stream - https://mkyong.com/java8/java-stream-has-already-been-operated-upon-or-closed/
+		What are intermediate and terminal operations? Which operations are lazy evaluated?https://www.knowledgepowerhouse.com/what-are-the-differences-between-intermediate-and-terminal-operations-in-java-8-streams/514
+		Is a parallel stream always good if I have a multi-core? How do you decide to go for parallel stream? How does parallel stream internally work? How do you configure the thread     pool used by the parallel streams?
+        https://stackoverflow.com/questions/20375176/should-i-always-use-a-parallel-stream-when-possible#comment35024845_20375622 ,https://stackoverflow.com/questions/24634825/how-java8s-collection-parallelstream-works
+		Explain Collectors? - https://docs.oracle.com/javase/8/docs/api/java/util/stream/Collectors.html
+		How SplitIterators work?
+		Write a program to count the number of ‘e’ in a list. E.g "Ken", "Jeff", "Ellen" should print 4. - Code
+		I have a stream of strings and I want to collect them in  a map with key as length and value as a Set of those words - Code
+		Functional Interface and Functional programming with Lambda  --- https://www.tothenew.com/blog/functional-programming-in-java8-using-lambda-expressions/
+		Why Functional interfaces - https://www.journaldev.com/2763/java-8-functional-interfaces
+		Why default interfaces - 
+		Wht sytic methods allowed in interfaces?
+		If an interface has 3 methods, one abstract another default and also a toString() method, will it be a functional interface? What is the purpose of using @Functionalinterface?
+		What is the difference between a Predicate and a Function?
+		Ans --- Both helps in evaluating lambda expressions. 
+		The difference is a predicate takes one argument and returns a boolean value while a function takes one argument and returns an object.
+		Create an Apple class which has got an id and weight of an apple. From a list of Apples find out apples which are less than 250 gms but more than 150 gms - Code
+		Create an ArrayList with Strings in lower case. Convert the entire list into upper case?
