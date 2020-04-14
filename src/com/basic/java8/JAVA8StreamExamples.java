@@ -18,12 +18,12 @@ public class JAVA8StreamExamples {
 
 	public static void main(String[] args) {
 		 //Count Empty String
-		   List<String> strList = Arrays.asList("abc", "", "bcd", "", "defg", "jk");
+		List<String> strList = Arrays.asList("abc", "", "bcd", "", "defg", "jk");
 		Long count = strList.stream().filter(a->a.isEmpty()).count();
 //		System.out.println(count);
 		// Count String with length more than 3
 
-		Long lenCount = strList.stream().filter(a->a.length()>3).count();
+		Stream<String> lenCount = strList.stream().filter(a->a.length()>3);
 //		System.out.println(lenCount);
 		     
 		//Count number of String which startswith "a"
@@ -42,7 +42,7 @@ public class JAVA8StreamExamples {
         empList.stream().filter(e->e.getAccount().matches("Admin")).findFirst().ifPresent(System.out::println);
         
         empList.stream().filter(e->e.getAccount().matches("Admin")).findAny().ifPresent(System.out::println);
-//Stream.flatMap() is used to convert a Stream of Stream into a list of values.
+       //Stream.flatMap() is used to convert a Stream of Stream into a list of values.
         
       //Given list of Employee’s salaries. Using java 8 find out 2 maximum salaries.
         
